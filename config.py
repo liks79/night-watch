@@ -11,7 +11,7 @@ logger.addHandler(streamHandler)
 
 class Settings(BaseSettings):
 
-    app_title: str = 'statping_backend_watcher.'
+    app_title: str = 'night-watch.'
     app_description: str = 'Monitoring Elasticache and Postgresql.'
     app_version: str = 'v0.2'
 
